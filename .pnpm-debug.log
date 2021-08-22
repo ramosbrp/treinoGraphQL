@@ -1,29 +1,19 @@
 {
   "0 debug pnpm:scope": {
-    "selected": 1,
-    "total": 2
+    "selected": 1
   },
-  "1 info pnpm": {
-    "err": {
-      "name": "Error",
-      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
-      "code": "ELIFECYCLE",
-      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106006:20)\n    at EventEmitter.emit (events.js:375:28)\n    at ChildProcess.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94312:18)\n    at ChildProcess.emit (events.js:375:28)\n    at maybeClose (internal/child_process.js:1055:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
-    }
-  },
-  "2 error pnpm": {
+  "1 error pnpm": {
     "errno": 1,
-    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
-    "pkgid": "@dev-demands/server@1.0.0",
+    "code": "ELIFECYCLE",
+    "pkgid": "@dev-demands/root@1.0.0",
     "stage": "start",
-    "script": "node -r esm .",
-    "pkgname": "@dev-demands/server",
-    "prefix": "E:\\Documents\\ambevTech\\GraphQl\\client-server-exemple\\packages\\server",
+    "script": "node server.js",
+    "pkgname": "@dev-demands/root",
     "err": {
       "name": "Error",
-      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
-      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
-      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106006:20)\n    at EventEmitter.emit (events.js:375:28)\n    at ChildProcess.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94312:18)\n    at ChildProcess.emit (events.js:375:28)\n    at maybeClose (internal/child_process.js:1055:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+      "message": "@dev-demands/root@1.0.0 start: `node server.js`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: @dev-demands/root@1.0.0 start: `node server.js`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106006:20)\n    at EventEmitter.emit (events.js:375:28)\n    at ChildProcess.<anonymous> (C:\\Users\\Bruno\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94312:18)\n    at ChildProcess.emit (events.js:375:28)\n    at maybeClose (internal/child_process.js:1055:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
     }
   }
 }
